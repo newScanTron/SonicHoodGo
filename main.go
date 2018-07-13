@@ -11,6 +11,7 @@ import (
 	"syscall"
 	"time"
 
+	_ "github.com/denisenkom/go-mssqldb"
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
 )
